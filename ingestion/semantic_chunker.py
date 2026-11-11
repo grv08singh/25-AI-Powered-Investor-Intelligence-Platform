@@ -54,7 +54,7 @@ if __name__ == "__main__":
         device="cpu"  # Change to "cuda" if you have GPU
     )
 
-    markdown_file = "../data/markdown/2024_Apple.md"
+    markdown_file = "data/markdown/2024_Apple.md"
     chunks = chunk_markdown(
         markdown_file=markdown_file,
         embeddings=embeddings
